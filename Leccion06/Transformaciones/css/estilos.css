@@ -1,0 +1,72 @@
+.contenedor{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.caja{
+  width: 200px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  margin: 15px;
+  background-color: aqua; 
+  font-size: 1.5rem; 
+  
+  transition: all 2s ease 0.5s;
+  /* transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(.83,.07,.36,1.1);
+  transition-delay: 0.5s; */
+}
+
+.caja1{
+  background-color: brown;
+}
+.caja2{
+
+  background-color: cadetblue;
+}
+.caja3{
+  background-color: chocolate;
+}
+.caja4{
+  background-color: darkblue;
+}
+.caja5{
+  background-color: darkred;
+}
+.caja6{
+  background-color: darkslategrey;
+}
+
+.caja1:hover{
+  transform: scale(1.2);
+}
+
+.caja2:hover{
+  transform: rotate(360deg);
+}
+
+.caja3:hover{
+  transform: translate(200px);
+  /* transform: translateY(-200px); */
+}
+
+.caja4:hover{
+  transform: skew(20deg);  
+}
+
+.caja5:hover{
+  transform: skewY(20deg);  
+}
+.caja6:hover{
+  transform: skewX(20deg);    
+}
+
+.caja7:hover{
+  transform: translate(200px) rotate(360deg) scale(1.2);
+}
+
+.caja8{
+  transform: rotate(20deg);
+}
