@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-size: 18px;
+}
+
+.contenedor {
+  width: 400px;
+  margin: 40px;
+
+}
+
+.formulario .contenedor-inputs {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  padding: 15px 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1rem;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus {
+  border-bottom: 2px solid #042e6d;
+}
+
+.formulario input[type="radio"] {
+  display: none;
+}
+
+.formulario .genero {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.formulario .genero .hombre,
+.formulario .genero .mujer {
+  border-radius: 3px 0 0 3px;
+  cursor: pointer;
+}
+
+.formulario .label-radio {
+  background-color: #703d02b6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 49%;
+}
+
+.formulario input[type="radio"]:checked+.label-radio {
+  background-color: #042e6d;
+}
+
+.formulario .terminos {
+  text-align: center;
+  color: #3f3e01;
+}
+
+.formulario .error {
+  display: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #ce1818;
+  color: white;
+  padding: 15px;
+}
+
+.formulario .btn {
+  width: 100%;
+  text-align: center;
+  background-color: #042e6d;
+  color: white;
+  border: none;
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.formulario .btn:hover {
+  background-color: #044cb8be;
+}
+
+.errorShow {
+  display: block !important;
+}

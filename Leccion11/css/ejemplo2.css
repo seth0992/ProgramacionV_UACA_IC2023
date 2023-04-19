@@ -1,0 +1,32 @@
+.cards {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 2px solid blue;
+  margin: 15px;
+  width: 30%;
+  padding: 5px;
+
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .titulo {
+  font-size: 1rem;
+}
+
+.card .precio {
+  font-size: 0.9rem;
+}
+
+.card .descrip {
+  font-size: 0.8rem;
+}

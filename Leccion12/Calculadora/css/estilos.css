@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #042e6d;
+  color: white;
+}
+
+.contenedor {
+  width: 400px;
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+}
+
+form p {
+  text-align: center;
+  color: #042e6d;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+form .btn {
+  width: 100%;
+  background-color: #042e6d;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+form .btn:hover {
+  background-color: #0d3e88;
+}

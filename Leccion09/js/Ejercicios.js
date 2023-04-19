@@ -58,3 +58,6 @@ signo(3,0,-10);
   4. Escriba una función que reciba un idioma ('es', 'en') y devuelva <hola mundo!> en el idioma correspondiente.
   5. Escriba una función que reciba un número y una palabra, y devuelva un string con la forma correcta, singular o plural. 1 perro 2 perros
 */
+
+//   3. Escriba una función que ordene 3 números de mayor a menor.
+//   INPUT -> 5 10 3 / OUTPUT -> 10 5 3
